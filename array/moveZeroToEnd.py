@@ -4,7 +4,7 @@ def moveZeroToEnd(n, a):
         if a[i] == 0 :
             j = i
     
-    if j==-1:
+    if j== -1:
         return a
    
     for i in range(j+1, n):
